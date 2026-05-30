@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>BullNotes — Every ticker. One click.</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="styles.css?v=11" />
+<link rel="stylesheet" href="hero.css?v=11" />
+<link rel="stylesheet" href="sections.css?v=11" />
+</head>
+<body>
+
+<!-- ===================== NAV ===================== -->
+<nav class="nav">
+  <div class="nav-inner">
+    <a class="brand" href="#top">
+      <span class="brand-mark"><img src="assets/bullnotes-logo.png" alt="BullNotes logo" /></span>
+      <span class="brand-name">Bull<b>Notes</b></span>
+    </a>
+    <div class="nav-links">
+      <a class="nav-link" href="#how">How it works</a>
+      <a class="nav-link" href="#reviews">Reviews</a>
+      <a class="nav-link" href="https://chromewebstore.google.com/detail/bullnotes/mfgfkfbaggackphjjgeelfghehkkkjmk" target="_blank" rel="noopener">Chrome Web Store</a>
+      <a class="btn btn-primary btn-md" href="https://chromewebstore.google.com/detail/bullnotes/mfgfkfbaggackphjjgeelfghehkkkjmk" target="_blank" rel="noopener">
+        <span class="chrome-dot"></span> Install free beta
+      </a>
+    </div>
+  </div>
+</nav>
+
+<!-- ===================== HERO ===================== -->
+<header class="hero" data-hero="stampede" id="top" data-screen-label="Hero">
+  <div class="wrap hero-copy">
+    <span class="hero-badge"><span class="pulse"></span> Live on the Chrome Web Store · <b>Free beta</b></span>
+    <h1>Every ticker.<br><span class="em">One click.</span></h1>
+    <p class="hero-sub">BullNotes reads any finance YouTube video and hands you every ticker, the creator's sentiment, and their bull/bear take in about ten seconds. Watch less. Know more.</p>
+    <div class="hero-cta">
+      <a class="btn btn-primary btn-lg" href="https://chromewebstore.google.com/detail/bullnotes/mfgfkfbaggackphjjgeelfghehkkkjmk" target="_blank" rel="noopener">
+        <span class="chrome-dot"></span> Install free beta
+      </a>
+      <a class="btn btn-ghost btn-lg" href="#how">See how it works</a>
+    </div>
+    <div class="hero-note" data-free><span class="tick">✓</span> No account · No credit card · Unlimited during beta</div>
+  </div>
+
+  <!-- charging bulls -->
+  <!-- infinite charging stampede -->
+  <div class="field">
+    <div class="ground"></div>
+    <div class="stampede">
+      <!-- far layer (small, dim, slow) -->
+      <img class="charger" src="assets/bull-stampede.png" alt="" style="--h:clamp(105px,12vw,160px);--op:0.32;--dur:34s;--delay:0s" />
+      <img class="charger" src="assets/bull-stampede.png" alt="" style="--h:clamp(118px,13vw,175px);--op:0.4;--dur:34s;--delay:-11.3s" />
+      <img class="charger" src="assets/bull-stampede.png" alt="" style="--h:clamp(98px,11vw,150px);--op:0.28;--dur:34s;--delay:-22.6s" />
+      <!-- near layer (large, bright, fast) -->
+      <img class="charger" src="assets/bull-stampede.png" alt="" style="--h:clamp(195px,22vw,300px);--op:0.9;--dur:21s;--delay:0s" />
+      <img class="charger" src="assets/bull-stampede.png" alt="" style="--h:clamp(170px,19vw,255px);--op:0.72;--dur:21s;--delay:-7s" />
+      <img class="charger" src="assets/bull-stampede.png" alt="" style="--h:clamp(210px,24vw,315px);--op:0.92;--dur:21s;--delay:-14s" />
+    </div>
+  </div>
+
+  <!-- ticker tape (only in tickertape direction) -->
+  <div class="tape">
+    <div class="tape-track">
+      <span class="t"><span class="sym">NVDA</span> <span class="up">▲ 2.4%</span></span>
+      <span class="t"><span class="sym">TSLA</span> <span class="dn">▼ 1.1%</span></span>
+      <span class="t"><span class="sym">AAPL</span> <span class="up">▲ 0.7%</span></span>
+      <span class="t"><span class="sym">PLTR</span> <span class="up">▲ 5.3%</span></span>
+      <span class="t"><span class="sym">AMD</span> <span class="dn">▼ 0.9%</span></span>
+      <span class="t"><span class="sym">META</span> <span class="up">▲ 1.8%</span></span>
+      <span class="t"><span class="sym">MSFT</span> <span class="up">▲ 0.4%</span></span>
+      <span class="t"><span class="sym">INTC</span> <span class="dn">▼ 2.0%</span></span>
+      <span class="t"><span class="sym">NVDA</span> <span class="up">▲ 2.4%</span></span>
+      <span class="t"><span class="sym">TSLA</span> <span class="dn">▼ 1.1%</span></span>
+      <span class="t"><span class="sym">AAPL</span> <span class="up">▲ 0.7%</span></span>
+      <span class="t"><span class="sym">PLTR</span> <span class="up">▲ 5.3%</span></span>
+      <span class="t"><span class="sym">AMD</span> <span class="dn">▼ 0.9%</span></span>
+      <span class="t"><span class="sym">META</span> <span class="up">▲ 1.8%</span></span>
+      <span class="t"><span class="sym">MSFT</span> <span class="up">▲ 0.4%</span></span>
+      <span class="t"><span class="sym">INTC</span> <span class="dn">▼ 2.0%</span></span>
+    </div>
+  </div>
+
+  <!-- live, self-populating analysis widget -->
+  <aside class="live-card" aria-hidden="true">
+    <div class="lc-head">
+      <span class="lc-logo"><img src="assets/bullnotes-logo.png" alt="" /></span>
+      <span class="lc-name">BullNotes</span>
+      <span class="lc-status" id="lc-status"><span class="lc-spin"></span> analyzing…</span>
+    </div>
+    <div class="lc-video">
+      <span class="lc-thumb">▶</span>
+      <span class="lc-vtitle">"This $2 Stock Could Be the Next Explosive Trade…"</span>
+    </div>
+    <div class="lc-sent">
+      <span class="lc-sent-k">Market sentiment</span>
+      <span class="lc-sent-v" id="lc-sent">—</span>
+    </div>
+    <div class="lc-rows" id="lc-rows"></div>
+  </aside>
+</header>
+
+<div class="band-rule"></div>
+
+<!-- ===================== HOW IT WORKS ===================== -->
+<section class="section-pad" id="how" data-screen-label="How it works">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <span class="eyebrow">How it works</span>
+      <h2 class="section-title">Three clicks from press play<br>to the full breakdown.</h2>
+    </div>
+    <div class="steps">
+      <div class="step reveal">
+        <div class="step-num">01</div>
+        <h3>Open any finance video</h3>
+        <p>Graham Stephan, Meet Kevin, CNBC — whatever you already watch. BullNotes wakes up the moment it spots a finance video.</p>
+      </div>
+      <div class="step reveal">
+        <div class="step-num">02</div>
+        <h3>Hit the BullNotes button</h3>
+        <p>A floating button sits in the bottom-right corner. One click pulls the full transcript and runs the analysis.</p>
+        <span class="kbd"><span class="d"></span> BullNotes ▸</span>
+      </div>
+      <div class="step reveal">
+        <div class="step-num">03</div>
+        <h3>Read the signal, skip the noise</h3>
+        <p>Every ticker, a plain-English read on the video's sentiment, the creator's take and main risk per stock — plus the one stock they're most excited about.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== PRODUCT SHOWCASE ===================== -->
+<section class="section-pad" id="product" data-screen-label="Product">
+  <div class="wrap product">
+    <div class="reveal">
+      <span class="eyebrow">The panel</span>
+      <h2 class="section-title">A whole video,<br>distilled into one panel.</h2>
+      <div class="feat-list">
+        <div class="feat">
+          <span class="feat-ic"><svg class="g" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M3 12a9 9 0 0 1 18 0"/><path d="M12 12l4-3"/></svg></span>
+          <div><h4>Overall market sentiment</h4><p>A plain-English read on the video's thesis and how bullish it skews — collapse it when you just want the tickers.</p></div>
+        </div>
+        <div class="feat">
+          <span class="feat-ic"><svg class="g" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><rect x="3" y="4" width="18" height="6" rx="2"/><rect x="3" y="14" width="18" height="6" rx="2"/></svg></span>
+          <div><h4>Per-ticker cards</h4><p>Symbol, company, a BUY / HOLD / SELL call, the creator's take, risk factors, and the after-hours price.</p></div>
+        </div>
+        <div class="feat">
+          <span class="feat-ic"><svg class="g" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l2.4 7.4H22l-6 4.6 2.3 7.4-6.3-4.6L5.7 21 8 14 2 9.4h7.6z"/></svg></span>
+          <div><h4>Top Pick &amp; timestamps</h4><p>Flags the one stock the creator pushes hardest, with mention counts and jump-to-timestamp chips.</p></div>
+        </div>
+        <div class="feat">
+          <span class="feat-ic"><svg class="g" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l8 4v5c0 5-3.5 8-8 9-4.5-1-8-4-8-9V7z"/></svg></span>
+          <div><h4>Honest by design</h4><p>Flags tickers it only inferred from context, and never dresses up automated signals as financial advice.</p></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- real BullNotes panel screenshot -->
+    <div class="panel-stage reveal">
+      <div class="panel-shot">
+        <img src="assets/bullnotes-panel.png" alt="The BullNotes sidebar panel analyzing a finance video — overall sentiment plus per-ticker BUY/HOLD/SELL cards" />
+      </div>
+    </div>
+  </div>
+
+  <!-- live demo lives on X -->
+  <div class="wrap demo-cta reveal">
+    <a class="demo-link" href="https://x.com/bullnotes" target="_blank" rel="noopener">
+      <span class="x-mark">𝕏</span>
+      <span class="demo-link-text">Watch BullNotes break down real videos on <b>@bullnotes</b></span>
+      <span class="demo-arrow">→</span>
+    </a>
+  </div>
+</section>
+
+<div class="band-rule"></div>
+
+<!-- ===================== REVIEWS ===================== -->
+<section class="section-pad" id="reviews" data-screen-label="Reviews">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <span class="eyebrow">What users say</span>
+      <h2 class="section-title">Built for people who watch<br>finance YouTube at 2×.</h2>
+      <div class="rating-row">
+        <span class="stars">★★★★★</span>
+        <span class="rating-num"><b>4.8</b> / 5 · 60+ reviews</span>
+        <span class="store-pill"><span class="chrome-dot" style="filter:none"></span> Chrome Web Store</span>
+      </div>
+    </div>
+
+    <div class="reviews">
+      <div class="review reveal">
+        <span class="stars">★★★★★</span>
+        <p>"So convenient being able to see every ticker in a video instantly. I don't have to sit through a 30-minute video to find out what stocks were even mentioned."</p>
+        <div class="who"><span class="av">M</span><div><div class="nm">Marcus R.</div><div class="meta">r/stocks</div></div></div>
+      </div>
+      <div class="review reveal">
+        <span class="stars">★★★★★</span>
+        <p>"The market-sentiment summary is the killer feature. I can tell in two seconds whether a video is actually bullish or just clickbait."</p>
+        <div class="who"><span class="av">P</span><div><div class="nm">Priya N.</div><div class="meta">Active trader</div></div></div>
+      </div>
+      <div class="review reveal">
+        <span class="stars">★★★★★</span>
+        <p>"Caught a creator pushing a stock way harder than the transcript justified. BullNotes showed me the receipts."</p>
+        <div class="who"><span class="av">D</span><div><div class="nm">Devin K.</div><div class="meta">Newsletter writer</div></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== FINAL CTA ===================== -->
+<section class="section-pad cta-band" data-screen-label="Final CTA">
+  <div class="wrap">
+    <div class="cta-box reveal">
+      <h2>Stop watching.<br>Start <span class="em">knowing.</span></h2>
+      <p>Free while we're in beta — no account, no credit card. Install it, open a finance video, and see for yourself.</p>
+      <div class="hero-cta">
+        <a class="btn btn-primary btn-lg" href="https://chromewebstore.google.com/detail/bullnotes/mfgfkfbaggackphjjgeelfghehkkkjmk" target="_blank" rel="noopener">
+          <span class="chrome-dot"></span> Install free beta
+        </a>
+        <a class="btn btn-ghost btn-lg" href="#how">See how it works</a>
+      </div>
+      <img class="cta-bull" src="assets/bull-stampede.png" alt="" />
+    </div>
+  </div>
+</section>
+
+<!-- ===================== FOOTER ===================== -->
+<footer class="footer" data-screen-label="Footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a class="brand" href="#top"><span class="brand-mark"><img src="assets/bullnotes-logo.png" alt="BullNotes logo" /></span><span class="brand-name">Bull<b>Notes</b></span></a>
+        <p>Every ticker, sentiment, and key take from any finance YouTube video — without watching it.</p>
+      </div>
+      <div class="footer-cols">
+        <div class="footer-col">
+          <h5>Product</h5>
+          <a href="#how">How it works</a>
+          <a href="#product">The panel</a>
+          <a href="#reviews">Reviews</a>
+          <a href="https://chromewebstore.google.com/detail/bullnotes/mfgfkfbaggackphjjgeelfghehkkkjmk" target="_blank" rel="noopener">Chrome Web Store</a>
+        </div>
+        <div class="footer-col">
+          <h5>Company</h5>
+          <a href="#">About</a>
+          <a href="#">Privacy</a>
+          <a href="#">Send feedback</a>
+        </div>
+        <div class="footer-col">
+          <h5>Connect</h5>
+          <a href="https://x.com/bullnotes" target="_blank" rel="noopener">Twitter / X</a>
+          <a href="#">Reddit</a>
+          <a href="#">Product Hunt</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 BullNotes · Beta</span>
+      <span>Not financial advice. For research only.</span>
+    </div>
+  </div>
+</footer>
+
+<!-- Tweaks panel mounts here -->
+<div id="tweaks-root"></div>
+
+<!-- scripts -->
+<script src="https://unpkg.com/react@18.3.1/umd/react.development.js" integrity="sha384-hD6/rw4ppMLGNu3tX5cjIb+uRZ7UkRJ6BPkLpg4hAu/6onKUg4lLsHAs9EBPT82L" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" integrity="sha384-u6aeetuaXnQ38mYT8rp6sbXaQe3NL9t+IBXmnYxwkUI2Hw4bsp2Wvmx4yRQF1uAm" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" integrity="sha384-m08KidiNqLdpJqLq95G/LEi8Qvjl/xUYll3QILypMoQ65QorJ9Lvtp2RXYGBFj1y" crossorigin="anonymous"></script>
+<script type="text/babel" src="tweaks-panel.jsx"></script>
+<script type="text/babel" src="app.jsx"></script>
+<script src="motion.js"></script>
+<script src="dynamic.js"></script>
+
+</body>
+</html>
