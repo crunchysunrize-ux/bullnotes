@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>BullNotes — Privacy Policy</title>
+<style>
+  body { max-width: 760px; margin: 40px auto; padding: 0 20px; font-family: -apple-system, system-ui, sans-serif; line-height: 1.6; background: #0a0a0b; color: rgba(255,255,255,0.9); }
+  h1 { font-size: 28px; color: #fff; }
+  h2 { font-size: 19px; margin-top: 32px; color: #fff; }
+  .meta { color: rgba(255,255,255,0.45); font-size: 14px; }
+  a { color: #4ade80; }
+  strong { color: #fff; }
+  ul { padding-left: 22px; }
+  code { background: rgba(255,255,255,0.08); padding: 1px 5px; border-radius: 4px; font-size: 90%; color: #fff; }
+</style>
+</head>
+<body>
+  <h1>BullNotes Privacy Policy</h1>
+  <p class="meta">Last updated: June 1, 2026</p>
+
+  <p>
+    BullNotes is a Chrome extension that analyzes finance videos on YouTube to extract
+    stock tickers, sentiment, and signals. This policy explains what information the
+    extension handles, how it is used, and who processes it. We aim to collect as little
+    as possible.
+  </p>
+
+  <h2>Information we handle</h2>
+  <ul>
+    <li><strong>Account information.</strong> If you sign in with Google, we receive your
+      email address and a unique account identifier. If you use BullNotes without signing
+      in, we create an anonymous account identifier instead. We never receive your Google
+      password.</li>
+    <li><strong>Usage data.</strong> We keep a monthly count of how many analyses you have
+      run, tied to your account identifier, in order to enforce free and paid plan limits.</li>
+    <li><strong>Subscription information.</strong> For paid plans we store your plan tier
+      and a Stripe customer identifier. Payment card details are entered on Stripe's secure
+      checkout page and are never seen or stored by BullNotes.</li>
+    <li><strong>Video content for analysis.</strong> When you run an analysis, the
+      transcript of the YouTube video you are watching is sent to our processing service to
+      extract tickers and sentiment. The resulting analysis, along with the video
+      identifier, may be cached so that the same video does not need to be re-analyzed.</li>
+    <li><strong>Local data.</strong> Your session, cached analyses, and usage count are
+      also stored locally in your browser.</li>
+  </ul>
+
+  <h2>How we use it</h2>
+  <ul>
+    <li>To provide the core analysis feature</li>
+    <li>To enforce free and paid plan limits</li>
+    <li>To manage your account and subscription</li>
+    <li>To reduce cost and latency by caching analyses of the same video</li>
+  </ul>
+
+  <h2>Service providers</h2>
+  <p>We use the following providers strictly to operate BullNotes:</p>
+  <ul>
+    <li><strong>Anthropic</strong> — processes video transcripts to generate the analysis.</li>
+    <li><strong>Supabase</strong> — authentication, database, and backend functions.</li>
+    <li><strong>Stripe</strong> — subscription billing and payment processing.</li>
+    <li><strong>Cloudflare, Yahoo Finance, and Finnhub</strong> — live price and symbol
+      lookups. Only ticker symbols and company names are sent for these lookups; no personal
+      information is shared.</li>
+  </ul>
+
+  <h2>What we do not do</h2>
+  <ul>
+    <li>We do not sell your personal information.</li>
+    <li>We do not use or transfer your information for purposes unrelated to BullNotes.</li>
+    <li>We do not use your information to determine creditworthiness or for lending.</li>
+    <li>We do not show ads or build advertising profiles.</li>
+  </ul>
+
+  <h2>Data retention</h2>
+  <ul>
+    <li>Cached video analyses expire after about 7 days.</li>
+    <li>Usage counts are kept per calendar month.</li>
+    <li>Account and subscription records are kept while your account is active.</li>
+  </ul>
+
+  <h2>Your choices</h2>
+  <ul>
+    <li>You can use BullNotes without an account (with a lower free limit).</li>
+    <li>You can cancel a paid subscription at any time from the extension's "Manage
+      subscription" link.</li>
+    <li>You can request deletion of your account and associated data by contacting us.</li>
+  </ul>
+
+  <h2>Not financial advice</h2>
+  <p>
+    BullNotes is an informational tool in beta. Its output is automated and may be
+    inaccurate. Nothing it produces is financial advice.
+  </p>
+
+  <h2>Contact</h2>
+  <p>
+    Questions about this policy or your data: <a href="mailto:support@bullnotes.net">support@bullnotes.net</a>
+  </p>
+</body>
+</html>
