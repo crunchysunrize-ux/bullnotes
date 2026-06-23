@@ -87,7 +87,7 @@
 .panel-shot {
   position: relative; z-index: 1;
   width: 384px; max-width: 100%;
-  height: clamp(540px, 72vh, 780px);
+  height: auto;
   border-radius: 26px;
   overflow: hidden;
   background: #1b1b1d;
@@ -98,11 +98,6 @@
 }
 .panel-shot img {
   width: 100%; height: auto; display: block;
-}
-.panel-shot::after {
-  content: ""; position: absolute; left: 0; right: 0; bottom: 0; height: 130px;
-  background: linear-gradient(180deg, transparent, rgba(20,20,22,0.96));
-  pointer-events: none;
 }
 .bn-panel {
   position: relative; z-index: 1;
